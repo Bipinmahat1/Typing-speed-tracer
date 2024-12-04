@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Tracker</h1>
+        <h2>By Bips</h2>
+        <p id="sentence">Type this sentence as quickly as possible: <strong>"The quick brown fox jumps over the lazy dog."</strong></p>
+        <textarea id="typingArea" placeholder="Start typing here..."></textarea>
+        <div class="stats">
+            <p id="firstKeyTime">First Key Press Time: <span>--</span></p>
+            <p id="completionTime">Completion Time: <span>--</span></p>
+            <p id="typingSpeed">Typing Speed: <span>--</span> WPM</p>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
